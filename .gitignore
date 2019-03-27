@@ -1,3 +1,10 @@
 .idea/
+.vscode/
+
 hamming/.exercism/
 high-scores/.exercism/
+robot-name/.exercism/
+
+hamming/__pycache__/
+high-scores/__pycache__/
+robot-name/__pycache__/
