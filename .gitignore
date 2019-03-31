@@ -1,12 +1,5 @@
 .idea/
 .vscode/
 
-hamming/.exercism/
-high-scores/.exercism/
-robot-name/.exercism/
-armstrong-numbers/.exercism/
-
-hamming/__pycache__/
-high-scores/__pycache__/
-robot-name/__pycache__/
-armstrong-numbers/__pycache__/
+*.exercism*
+*__pycache__*
