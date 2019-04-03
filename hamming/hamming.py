@@ -1,9 +1,10 @@
 def distance(strand_a, strand_b):
     if len(strand_a) != len(strand_b):
-        raise ValueError('variable not equals!')
+        raise ValueError('Variable not equals!')
     else:
         dist = 0
-        for i in range(0, len(strand_a)):
-            if strand_a[i] != strand_b[i]:
+        zipped = zip(strand_a, strand_b)
+        for a,b in list(zipped):
+            if a != b:
                 dist += 1
         return dist
