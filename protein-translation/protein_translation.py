@@ -1,2 +1,2 @@
 def proteins(strand):
-    pass
+    return []
