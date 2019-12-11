@@ -3,3 +3,5 @@
 
 *.exercism*
 *__pycache__*
+*.cache*
+*.pyc
